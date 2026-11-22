@@ -1,8 +1,8 @@
-"*** Python Basics - Final Project: Student Management"
+"*** Python Intermediate - Refactory of Project: Student Management using OOP"
 "*** Module Name:  main.py"
 "*** Author:  Kattia Chavarria"
-"*** Date:  2024-07-18"
-"*** Notes:  Entry point of the student management system. Wires together the objects and runs the menu loop."
+"*** Date:  2026-11-22"
+"*** Notes:  Entry point of the student management system. Ties the objects and runs the menu loop."
 "            Code and documentation are provided in English but file structure is in Spanish to comply with requirements."
 "*************************************************************************************************"
 
@@ -30,7 +30,7 @@ class StudentApp:
         ])
 
     def exit(self):
-        print("\n Logging out and exiting...")
+        print("\n Logging out...")
         self.running = False
 
     def run(self):

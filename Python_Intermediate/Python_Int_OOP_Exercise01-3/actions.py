@@ -1,7 +1,7 @@
-"*** Python Basics - Final Project: Student Management"
+"*** Python Intermediate - Refactory of Project: Student Management using OOP"
 "*** Module Name:  actions.py"
 "*** Author:  Kattia Chavarria"
-"*** Date:  2024-07-18"
+"*** Date:  2026-11-15"
 "*** Notes:  Defines the StudentManager class, which owns the list of students and all the actions on it."
 "            Code and documentation are provided in English but file structure is in Spanish to comply with requirements."
 "*************************************************************************************************"
@@ -22,7 +22,7 @@ class StudentManager:
         return student in self._students
 
     def find(self, nombre: str, seccion: str):
-        """Returns the matching Student or None (name is case-insensitive)."""
+        """Returns the matching Student or None."""
         for student in self._students:
             if student.nombre.lower() == nombre.strip().lower() and student.seccion == seccion.strip().upper():
                 return student
